@@ -1,0 +1,30 @@
+Package: dnameda
+Title: DNA methylation EDA
+Version: 0.0.0.9000
+Authors@R: person('Emil', 'Hvitfeldt', email = 'emilhhvitfeldt@gmail.com', role = c('cre', 'aut'))
+Description: Shiny app to perform exploratory data analysis on DNA methylation data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    shiny,
+    golem,
+    DT,
+    attempt,
+    glue,
+    htmltools,
+    shinydashboard,
+    tibbletime,
+    ggplot2,
+    dplyr,
+    tidyr,
+    purrr,
+    fs,
+    e1071,
+    readr,
+    magrittr
+Remotes: 
+    Thinkr-open/golem
+RoxygenNote: 6.1.1
+Suggests: 
+    testthat
